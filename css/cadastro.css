@@ -1,0 +1,32 @@
+section{
+    text-align: center;
+    background-color: rgb(247, 215, 220);
+}
+header{
+    background-color: turquoise;
+}
+
+footer{
+    padding: 290px;
+    position:fixed;
+}
+body{
+    background-color: crimson;
+}
+
+.salvar{
+    background-color: rgb(64, 224, 171);
+}
+
+.cancel{
+    background-color: rgb(170, 165, 165);
+}
+
+img{
+    width: 600px;
+    height: 300px;
+}
+
+.input_footer{
+    margin-left: 550px;
+}
