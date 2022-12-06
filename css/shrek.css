@@ -122,3 +122,7 @@ div{
 .trailer{
     display: none;
 }
+
+marquee{
+    background-color: white;
+}
