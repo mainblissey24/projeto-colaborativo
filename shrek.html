@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/shrek.css">
     <script src="https://kit.fontawesome.com/dc67c163a9.js" crossorigin="anonymous"></script>
+    <script src="js/shrek.js"></script>
     <title>Tela Inicial</title>
 </head>
 
@@ -22,12 +23,47 @@
         <center>
             <h1>Filme: Shrek</h1>
         </center>
-        <div class="player">
+        <div class="player" id="conteudo">
             <div>
-                <marquee behavior="alternate" direction="down" behavior="alternate">
-                    <marquee behavior="alternate"><img src="img/dvd-removebg-preview.png"></marquee>
+                <marquee direction="down" width="800" height="600" behavior="alternate" style="border:solid">
+                    <marquee behavior="alternate" scrollamount="20"><img src="img/dvd-removebg-preview.png" class="dvd">
+                    </marquee>
                 </marquee>
             </div>
+        </div>
+        <div class="filme" id="mostrarfilme">
+            <iframe width="800" height="600" src="https://www.youtube.com/embed/Br7vtgrBN28"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="trailer" id="vertrailer">
+            <iframe width="800" height="600" src="https://www.youtube.com/embed/ooJJX3R42WM"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="infoFilme">
+            <h3>Sinopse</h3>
+            <p>Um ogro tem sua vida invadida por personagens de contos de fadas que acabam com a tranquilidade de seu
+                lar. Ele faz um acordo pra resgatar uma princesa.</p>
+            <h3>Gênero</h3>
+            <p>Aventura/Comédia/Fantasia</p>
+            <h3>Idioma</h3>
+            <p>Português</p>
+            <button  onclick="filme('conteudo')">Assitir Filme</button>
+            <button  onclick="trailer('conteudo')">Assitir Trailer</button>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
         </div>
     </section>
 
@@ -47,8 +83,8 @@
                     <li><a href="#"><i class="fa fa-youtube"></i></a></li>
                 </div>
             </div>
-            
-            </div>
+
+        </div>
         </div>
         <div class="footer-bottom">
             <p>copyright &copy; 2022 FilmeFlix. desenvolvido por <span>Bernardo dos Santos, Emanuel, Matheus Zanchin
