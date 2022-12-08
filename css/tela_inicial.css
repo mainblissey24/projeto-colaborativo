@@ -96,6 +96,7 @@ header{
     justify-content: space-between;
     background: linear-gradient(72deg, rgb(185, 240, 134) 1%, rgb(179, 110, 236) 99%);
     box-shadow: 0 0 1rem black;
+    padding: 8px 0;
 }
 
 ul{
